@@ -17,7 +17,7 @@ const DirectorsPage = () => {
 
   return (
     <div>
-      <h1>Directors</h1>
+      <h1 className='text-2xl font-bold text-purple-600 dark:text-pink-400'>Directors</h1>
       <ul>
         {directors.map(director => (
           <li key={director._id}>

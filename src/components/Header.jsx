@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="p-4 bg-white dark:bg-gray-800">
       <div className="flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-pink-600 dark:text-pink-400">
+        <Link href="/" className="text-2xl font-bold text-purple-600 dark:text-pink-400">
           Movie House
         </Link>
         <nav>

@@ -25,7 +25,7 @@ const GenreDetailPage = () => {
 
   return (
     <div>
-      <h1>Movies in this Genre</h1>
+      <h1 className='text-2xl font-bold text-purple-600 dark:text-pink-400'>Movies in this Genre</h1>
       <ul>
         {movies.map(movie => (
           <li key={movie.id}>

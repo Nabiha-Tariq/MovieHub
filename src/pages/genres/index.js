@@ -17,7 +17,7 @@ const GenresPage = () => {
 
   return (
     <div>
-      <h1>Genres</h1>
+      <h1 className='text-2xl font-bold text-purple-600 dark:text-pink-400'>Genres</h1>
       <ul>
         {genres.map(genre => (
           <li key={genre._id}>

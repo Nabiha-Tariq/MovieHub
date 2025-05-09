@@ -12,9 +12,9 @@ const DirectorPage = ({ director }) => {
 
   return (
     <div>
-      <h1>{director.name}</h1>
+      <h1 className='text-2xl font-bold text-purple-600 dark:text-purple-400'>{director.name}</h1>
       <p>{director.bio}</p>
-      <h2>Movies Directed:</h2>
+      <h2 >Movies Directed:</h2>
       <ul>
         {director.movies.map((movie) => (
           <li key={movie._id}>

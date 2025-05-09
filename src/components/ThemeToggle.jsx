@@ -5,7 +5,7 @@ const ThemeToggle = () => {
 
   return (
     <button
-      className="p-2 rounded-full bg-pink-600 text-white dark:bg-pink-400"
+      className="p-2 rounded-full bg-purple-600 text-white dark:bg-pink-400"
       onClick={toggleTheme}
     >
       Toggle Theme

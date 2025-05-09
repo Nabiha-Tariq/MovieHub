@@ -4,7 +4,6 @@ const MovieDetailPage = ({ movie }) => {
   return (
     <div>
       <h1>{movie.title}</h1>
-      <img src={movie.poster} alt={movie.title} />
       <p>{movie.description}</p>
       <p>Rating: {movie.rating}</p>
     </div>

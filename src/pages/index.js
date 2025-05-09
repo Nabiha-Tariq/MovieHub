@@ -12,7 +12,7 @@ export default function Home({ movies }) {
 
       <div className="mt-10 text-center">
         <button
-          className="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600 transition"
+          className="bg-purple-500 text-white px-6 py-2 rounded hover:bg-purple-600 transition"
           onClick={() => window.location.href = '/genres'}
         >
           Browse Genres
